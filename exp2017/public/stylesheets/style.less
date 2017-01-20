@@ -1,0 +1,48 @@
+@mainColor: #e3e2dd;
+@mainText: #c5a5ab;
+@secondText: #87a6c0;
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: @mainColor;
+}
+
+a {
+  color: #00B7FF;
+}
+h1{
+	font-size: 52px;
+	position: absolute;
+	color: @mainText;
+	top: 0%;
+	margin-top: 1%;
+	left: 50%;
+	margin-left: -148px;
+}
+.intro{
+	color:@secondText;
+	position: relative;
+	top: 3vh;
+	left: 50%;
+	margin-left: -270px;
+}
+.flex{
+	width: 100%;
+	height: 70vh;
+	margin: 50px 10px 10px 10px ;
+	display: flex;
+}
+.inFlex{
+	flex-grow: 3;
+	margin: 10px;
+}
+.inFlex:nth-child(1){
+	border-right: 1px solid @mainText;
+}
+.inFlex:nth-child(3){
+	border-left: 1px solid @mainText;
+}
+.task{
+	margin: 20px 5px 0px 10%;
+}
