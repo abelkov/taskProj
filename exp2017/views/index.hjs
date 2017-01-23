@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <script type="text/javascript" src="/javascripts/main.js"></script>
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p class="intro">{{ intro }}</p>
-    
-    <input type="text" name="task" class="task">
-    <label for="task">enter your task</label><br>
-    <input type="submit" value="add" id="add" class="task">
+<head>
+  <title>{{ title }}</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  <p class="intro">{{ intro }}</p>
+
+  <input type="text" name="task" class="task">
+  <label for="task">enter your task</label><br>
+  <input type="submit" value="add" id="add" class="task">
 
 
-	<div class = "flex">
-	    <div class = "inFlex"></div>
-	    <div class = "inFlex"></div>
-	    <div class = "inFlex"></div>
-  	</div>
-  	    <div id='chack'></div>
-  </body>
+  <div class = "flex">
+    <div class = "inFlex"></div>
+    <div class = "inFlex"></div>
+    <div class = "inFlex"></div>
+  </div>
+  <div id='chack'></div>
+
+  <script type="text/javascript" src="/javascripts/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="/javascripts/main.js"></script>
+</body>
 </html>
